@@ -33,6 +33,10 @@ h1, h3 {
     padding: 0 10px;
 }
 
+.px-20 {
+    padding: 0 20px;
+}
+
 .py-10 {
     padding: 10px 0;
 }
@@ -87,13 +91,14 @@ h1, h3 {
     background-position: center;
 }
 
-.hero-bg {
+.dark-bg {
+    width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.hero, 
-.hero-bg {
+.hero,
+.dark-bg {
     border-radius: 10px;
 }
 
@@ -124,35 +129,41 @@ h1, h3 {
     width: 60%;
 }
 
+
+
 .img-container-1,
 .img-container-2,
 .img-container-3 {
     width: 100%;
     height: 200px;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.img-container-1,
-.img-container-2 {
-}
+
 
 .img-container-1 {
     background-image: url(./img/img-1.jpg);
-    background-size: 200px;
 }
 .img-container-2 {
     background-image: url(./img/banner-2.jpg);
-    background-size: 650px;
 }
 .img-container-3 {
     background-image: url(./img/img-3.jpg);
-    background-size: 310px;
 }
 
 
 /* FOOTER */
 
-.footer-content {
-    width: 100%;
-    background-color: #8801fe;
+footer {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer > div > span {
+    color: #ff0000;
+    font-size: 20px;
 }
