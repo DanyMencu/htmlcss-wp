@@ -1,0 +1,85 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+.container {
+    max-width: 1200px;
+    margin: 10px auto 0;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-1 {
+    margin-left: 1%;
+}
+
+.content-box {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* HEADER */
+.header-content {
+    width: 100%;
+    background-color: #e579e6;
+}
+
+/* MAIN */
+
+/* HERO SECTION */
+.hero {
+    width: 100%;
+    background-color: #e1d67a;
+}
+
+/* COLLUM SECTION */
+
+.collum {
+    width: 100%;
+    background-color: #0186fe;
+    display: inline-block;
+}
+
+.collum-hd {
+    width: 100%;
+}
+
+.aside-main {
+    float: left;
+    width: 20%;
+    display: inline;
+}
+
+.central-main {
+    float: left;
+    width: 60%;
+}
+
+/* FOOTER */
+
+.footer-content {
+    width: 100%;
+    background-color: #8801fe;
+}
