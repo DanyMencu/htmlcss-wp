@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -64,7 +68,28 @@ body {
 /* HERO SECTION */
 .hero {
     width: 100%;
-    background-color: #e1d67a;
+    height: 450px;
+    position: relative;
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+}
+
+.hero-bg {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.hero, 
+.hero-bg {
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 45%;
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    left: 4%;
 }
 
 /* COLLUM SECTION */
