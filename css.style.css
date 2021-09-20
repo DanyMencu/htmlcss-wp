@@ -11,6 +11,10 @@ body {
     color: #a4a4a4;
 }
 
+h1, h3 {
+    color: #000;
+}
+
 /* UTILITY */
 .container {
     max-width: 1200px;
@@ -23,6 +27,14 @@ body {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.px-10 {
+    padding: 0 10px;
+}
+
+.py-10 {
+    padding: 10px 0;
 }
 
 .clearfix::after {
@@ -41,6 +53,7 @@ body {
 /* HEADER */
 .brand img {
     width: 150px;
+    padding-bottom: 30px;
     display: inline-block;
 }
 
@@ -96,13 +109,9 @@ body {
 
 .collum {
     width: 100%;
-    background-color: #0186fe;
     display: inline-block;
 }
 
-.collum-hd {
-    width: 100%;
-}
 
 .aside-main {
     float: left;
@@ -114,6 +123,32 @@ body {
     float: left;
     width: 60%;
 }
+
+.img-container-1,
+.img-container-2,
+.img-container-3 {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+}
+
+.img-container-1,
+.img-container-2 {
+}
+
+.img-container-1 {
+    background-image: url(./img/img-1.jpg);
+    background-size: 200px;
+}
+.img-container-2 {
+    background-image: url(./img/banner-2.jpg);
+    background-size: 650px;
+}
+.img-container-3 {
+    background-image: url(./img/img-3.jpg);
+    background-size: 310px;
+}
+
 
 /* FOOTER */
 
