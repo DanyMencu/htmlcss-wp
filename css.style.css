@@ -47,13 +47,6 @@ h1, h3 {
     clear: both;
 }
 
-
-.content-box {
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 /* HEADER */
 .brand img {
     width: 150px;
@@ -80,7 +73,6 @@ h1, h3 {
 .brand a:hover {
     color: #000;
 }
-/* MAIN */
 
 /* HERO SECTION */
 .hero {
@@ -117,7 +109,6 @@ h1, h3 {
     display: inline-block;
 }
 
-
 .aside-main {
     float: left;
     width: 20%;
@@ -129,8 +120,6 @@ h1, h3 {
     width: 60%;
 }
 
-
-
 .img-container-1,
 .img-container-2,
 .img-container-3 {
@@ -141,18 +130,17 @@ h1, h3 {
     background-repeat: no-repeat;
 }
 
-
-
 .img-container-1 {
     background-image: url(./img/img-1.jpg);
 }
+
 .img-container-2 {
     background-image: url(./img/banner-2.jpg);
 }
+
 .img-container-3 {
     background-image: url(./img/img-3.jpg);
 }
-
 
 /* FOOTER */
 
