@@ -6,10 +6,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    font-size: 300;
+    color: #a4a4a4;
+}
+
 /* UTILITY */
 .container {
     max-width: 1200px;
-    margin: 10px auto 0;
+    margin: 0 auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .clearfix::after {
@@ -18,22 +27,6 @@
     clear: both;
 }
 
-.px-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
-}
-
-.ml-1 {
-    margin-left: 1%;
-}
 
 .content-box {
     height: 70px;
@@ -42,11 +35,30 @@
 }
 
 /* HEADER */
-.header-content {
-    width: 100%;
-    background-color: #e579e6;
+.brand img {
+    width: 150px;
+    display: inline-block;
 }
 
+.brand > ul > li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+.brand > ul > li:last-child {
+    padding-right: 0;
+}
+
+.brand a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+.brand a:hover {
+    color: #000;
+}
 /* MAIN */
 
 /* HERO SECTION */
